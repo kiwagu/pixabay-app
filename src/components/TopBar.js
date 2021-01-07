@@ -8,16 +8,16 @@ function TopBar({ location }) {
 
   return (
     <Navbar bg="primary" expand="lg" variant="dark">
-      <Navbar.Brand href="/">Photo App</Navbar.Brand>
+      <Navbar.Brand href="/pixabay-app">Pixabay App</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/" active={location.pathname === '/'}>
+          <Nav.Link href="/pixabay-app" active={location.pathname === '/'}>
             Home
           </Nav.Link>
           <Nav.Link
-            href="/imagesearch"
-            active={location.pathname === '/imagesearch'}
+            href="/pixabay-app/imagesearch"
+            active={location.pathname === '/pixabay-app/imagesearch'}
           >
             Search
           </Nav.Link>

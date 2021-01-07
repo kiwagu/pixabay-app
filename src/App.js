@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route } from 'react-router-dom';
+import { Router, Route, Redirect } from 'react-router-dom';
 import { createBrowserHistory as createHistory } from 'history';
 
 import ImagesProvider from './context/images';
@@ -18,9 +18,20 @@ function App() {
       <div className="App">
         <Router history={history}>
           <TopBar />
-          <Route path="/" exact component={HomePage} />
-          <Route path="/imagesearch" exact component={ImageSearchPage} />
-          <Route path="/image/:imageId" exact component={ImagePage} />
+          <Route exact path="/">
+            <Redirect to="/pixabay-app" />
+          </Route>
+          <Route path="/pixabay-app" exact component={HomePage} />
+          <Route
+            path="/pixabay-app/imagesearch"
+            exact
+            component={ImageSearchPage}
+          />
+          <Route
+            path="/pixabay-app/image/:imageId"
+            exact
+            component={ImagePage}
+          />
         </Router>
       </div>
     </ImagesProvider>

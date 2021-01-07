@@ -103,7 +103,7 @@ function ImageSearchPage() {
               {images.map((img, i) => {
                 return (
                   <div key={i}>
-                    <Link to={`/image/${img.id}`}>
+                    <Link to={`/pixabay-app/image/${img.id}`}>
                       <img
                         src={img.webformatURL}
                         alt="thumbnamil"
