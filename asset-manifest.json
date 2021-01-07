@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/pixabay-app/static/css/main.6c7f80da.chunk.css",
-    "main.js": "/pixabay-app/static/js/main.9acb58f7.chunk.js",
-    "main.js.map": "/pixabay-app/static/js/main.9acb58f7.chunk.js.map",
+    "main.js": "/pixabay-app/static/js/main.13e0a3fc.chunk.js",
+    "main.js.map": "/pixabay-app/static/js/main.13e0a3fc.chunk.js.map",
     "runtime-main.js": "/pixabay-app/static/js/runtime-main.7185bfb6.js",
     "runtime-main.js.map": "/pixabay-app/static/js/runtime-main.7185bfb6.js.map",
-    "static/js/2.f78df0ac.chunk.js": "/pixabay-app/static/js/2.f78df0ac.chunk.js",
-    "static/js/2.f78df0ac.chunk.js.map": "/pixabay-app/static/js/2.f78df0ac.chunk.js.map",
+    "static/js/2.94649847.chunk.js": "/pixabay-app/static/js/2.94649847.chunk.js",
+    "static/js/2.94649847.chunk.js.map": "/pixabay-app/static/js/2.94649847.chunk.js.map",
     "static/js/3.4a2ff1b9.chunk.js": "/pixabay-app/static/js/3.4a2ff1b9.chunk.js",
     "static/js/3.4a2ff1b9.chunk.js.map": "/pixabay-app/static/js/3.4a2ff1b9.chunk.js.map",
     "index.html": "/pixabay-app/index.html",
     "static/css/main.6c7f80da.chunk.css.map": "/pixabay-app/static/css/main.6c7f80da.chunk.css.map",
-    "static/js/2.f78df0ac.chunk.js.LICENSE.txt": "/pixabay-app/static/js/2.f78df0ac.chunk.js.LICENSE.txt"
+    "static/js/2.94649847.chunk.js.LICENSE.txt": "/pixabay-app/static/js/2.94649847.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7185bfb6.js",
-    "static/js/2.f78df0ac.chunk.js",
+    "static/js/2.94649847.chunk.js",
     "static/css/main.6c7f80da.chunk.css",
-    "static/js/main.9acb58f7.chunk.js"
+    "static/js/main.13e0a3fc.chunk.js"
   ]
 }
