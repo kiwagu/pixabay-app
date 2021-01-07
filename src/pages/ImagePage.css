@@ -1,0 +1,13 @@
+.photo-img > img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-details ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.photo-details i {
+  margin-right: 8px;
+}
